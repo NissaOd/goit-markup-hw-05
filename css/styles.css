@@ -157,8 +157,6 @@ li {
 
 .header-list {
     display: flex;
-    /* padding-top: 30px;
-    padding-bottom: 30px; */
     gap: 50px;
 }
 
@@ -885,6 +883,7 @@ svg.header-list-item-icon {
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+    fill: var(--color-text);
 }
 
 .modal-btn:hover,
