@@ -439,7 +439,6 @@ svg.header-list-item-icon {
     margin-bottom: 0;
     background-color: var(--main-title-color);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
-    transition: transform var(--transition-time);
 }
 
 .team-item:hover {}
@@ -836,6 +835,7 @@ svg.header-list-item-icon {
 
 .footer-soc-icon {
     fill: var(--main-title-color);
+    transition: transform var(--transition-time);
 }
 
 .footer-soc-link:hover,
