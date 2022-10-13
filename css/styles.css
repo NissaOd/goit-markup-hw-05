@@ -163,22 +163,8 @@ li {
 
 /* ___________________icon___________ */
 
-svg.header-list-item-icon {
+.header-list-item-icon {
     fill: currentColor;
-}
-
-.header-list-icon .header-item {
-    transition: color var(--transition-time) background-color var(--transition-time);
-}
-
-.header-list-icon:hover,
-.header-list-icon:focus {
-    fill: var(--color-logo);
-}
-
-.header-item:hover .header-list-item-icon,
-.header-item:focus .header-list-item-icon {
-    fill: var(--color-logo);
 }
 
 
@@ -469,23 +455,19 @@ svg.header-list-item-icon {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color: var(--color-icon);
     background-color: var(--main-title-color);
-    transition: color var(--transition-time) background-color var(--transition-time);
+    transition: color var(--transition-time), background-color var(--transition-time);
 }
 
 .team-soc-icon {
-    fill: var(--color-icon);
-    transition: color var(--transition-time) background-color var(--transition-time);
+    fill: currentColor;
 }
 
 .team-soc-link:hover,
 .team-soc-link:focus {
     background-color: var(--color-logo);
-}
-
-.team-soc-link:hover .team-soc-icon,
-.team-soc-link:focus .team-soc-icon {
-    fill: var(--main-title-color);
+    color: var(--main-title-color)
 }
 
 
@@ -552,7 +534,7 @@ svg.header-list-item-icon {
     padding: 6px 22px;
     border-color: transparent;
     border-radius: 4px;
-    transition: color var(--transition-time) background-color var(--transition-time);
+    transition: color var(--transition-time), background-color var(--transition-time);
 }
 
 :focus.btn-item-btn,
@@ -682,23 +664,19 @@ svg.header-list-item-icon {
     width: 170px;
     height: 92px;
     border-radius: 4px;
+    color: var(--color-icon);
     background-color: var(--main-title-color);
-    transition: color var(--transition-time) background-color var(--transition-time);
+    transition: color var(--transition-time), border-color var(--transition-time);
 }
 
 .client-item-icon {
-    fill: var(--color-icon);
-    transition: color var(--transition-time) border-color var(--transition-time);
+    fill: currentColor;
 }
 
 .client-item-link:hover,
 .client-item-link:focus {
     border-color: var(--color-logo);
-}
-
-.client-item-link:hover .client-item-icon,
-.client-item-link:focus .client-item-icon {
-    fill: var(--color-logo);
+    color: var(--color-logo)
 }
 
 
@@ -788,7 +766,6 @@ svg.header-list-item-icon {
 .footer-tel:hover,
 .footer-tel:focus {
     color: #188CE8;
-    ;
 }
 
 
@@ -827,22 +804,20 @@ svg.header-list-item-icon {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    color: var(--color-icon);
     background-color: rgba(255, 255, 255, 0.1);
-    transition: color var(--transition-time);
+    transition: color var(--transition-time), background-color var(--transition-time);
 }
 
 .footer-soc-icon {
-    fill: var(--main-title-color);
-    transition: color var(--transition-time);
+    fill: currentColor;
 }
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: var(--color-logo);
+    color: var(--main-title-color);
 }
-
-.footer-soc-icon:hover,
-.footer-soc-icon:focus {}
 
 
 /* modal */
