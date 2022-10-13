@@ -8,7 +8,7 @@
     --color-footer: rgba(255, 255, 255, 0.6);
     --color-icon: #AFB1B8;
     --color-btn: #F5F4FA;
-    --transition-time: 2050ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-time: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 body {
