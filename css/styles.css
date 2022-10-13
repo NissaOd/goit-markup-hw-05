@@ -590,7 +590,7 @@ svg.header-list-item-icon {
     background: rgba(33, 150, 243, 0.9);
     overflow: auto;
     transform: translateY(100%);
-    transition: color var(--transition-time);
+    transition: transform var(--transition-time);
 }
 
 .services-item-link:hover .services-top-text {
