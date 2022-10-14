@@ -585,7 +585,7 @@ li {
 
 .services-item-link {
     display: block;
-    transition: color var(--transition-time);
+    transition: box-shadow var(--transition-time);
 }
 
 .services-item-link:hover,
@@ -804,9 +804,9 @@ li {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    color: var(--color-icon);
+    color: var(--main-title-color);
     background-color: rgba(255, 255, 255, 0.1);
-    transition: color var(--transition-time), background-color var(--transition-time);
+    transition: background-color var(--transition-time);
 }
 
 .footer-soc-icon {
@@ -816,7 +816,6 @@ li {
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: var(--color-logo);
-    color: var(--main-title-color);
 }
 
 
